@@ -1,9 +1,17 @@
 import React from 'react'
 import '../css/ToDoSearch.css'
 
-const ToDoSearch = () => {
+const ToDoSearch = ({searchValue, setSearchValue}) => {
+
+    const oncSearchValueChange = e => setSearchValue(e.target.value)
+
     return (
-        <div>ToDoSearch</div>
+        <input
+            className="ToDoSearch"
+            placeholder="Buscar To-Dos"
+            onChange={oncSearchValueChange}
+            value={searchValue}
+        />
     )
 }
 

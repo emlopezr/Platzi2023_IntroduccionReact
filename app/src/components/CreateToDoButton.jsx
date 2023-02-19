@@ -3,7 +3,12 @@ import '../css/CreateToDoButton.css'
 
 const CreateToDoButton = () => {
     return (
-        <div>CreateToDoButton</div>
+        <button
+            className="CreateToDoButton"
+            onClick={() => console.log('Clicked')}
+        >
+            +
+        </button>
     )
 }
 
