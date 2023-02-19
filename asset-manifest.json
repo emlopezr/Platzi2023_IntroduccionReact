@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Platzi2023_IntroduccionReact/static/css/main.493d638f.css",
+    "main.js": "/Platzi2023_IntroduccionReact/static/js/main.f51ddf73.js",
+    "index.html": "/Platzi2023_IntroduccionReact/index.html",
+    "main.493d638f.css.map": "/Platzi2023_IntroduccionReact/static/css/main.493d638f.css.map",
+    "main.f51ddf73.js.map": "/Platzi2023_IntroduccionReact/static/js/main.f51ddf73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.493d638f.css",
+    "static/js/main.f51ddf73.js"
+  ]
+}
