@@ -1,11 +1,11 @@
 import React from 'react'
 import '../css/ToDoList.css'
 
-const ToDoList = (props) => {
+const ToDoList = ({children}) => {
     return (
         <section>
             <ul>
-                {props.children}
+                {children}
             </ul>
         </section>
     )
